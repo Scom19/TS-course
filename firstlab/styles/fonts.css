@@ -1,17 +1,17 @@
 @font-face {
     font-family: Poppins;
-    src: url(firstlab/assets/fonts/Poppins-Regular.ttf);
+    src: url(../assets/fonts/Poppins_Regular.ttf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: Poppins;
-    src: url(firstlab/assets/fonts/Poppins-Medium.ttf);
+    src: url(../assets/fonts/Poppins_Medium.ttf);
     font-weight: 500;
 }
 
 @font-face {
     font-family: Poppins;
-    src: url(firstlab/assets/fonts/Poppins-SemiBold.ttf);
+    src: url(../assets/fonts/Poppins_SemiBold.ttf);
     font-weight: 700;
 }
