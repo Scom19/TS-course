@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Cropper</title>
+    <link rel="stylesheet" href="https://unpkg.com/cropperjs/dist/cropper.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Photo Cropper</h1>
+    <input type="file" id="upload" accept="image/*">
+    <div class="crop-container">
+        <img id="image" src="" alt="Image">
+        <img id="cropped-image" class="cropped-image" src="" alt="Cropped Image">
+    </div>
+    <div class="button-container">
+        <button id="crop">Обрезать изображение</button>
+        <button id="download">Скачать изображение</button>
+    </div>
+    <canvas id="canvas" style="display: none;"></canvas>
+</div>
+
+<!-- Подключаем ваш файл index.js -->
+<script src="index.js"></script>
+<script src="https://unpkg.com/cropperjs/dist/cropper.js"></script>
+</body>
+</html>
