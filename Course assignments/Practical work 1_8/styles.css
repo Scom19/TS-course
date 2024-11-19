@@ -28,16 +28,12 @@ input[type="file"] {
     position: relative;
     margin-bottom: 20px;
 }
-.cropper-canvas{
-}
-.cropper-hidden{border: #28D979 solid 3px;}
-.cropper-bg{padding-bottom: 7px}
 .cropped-image {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 7px #28D979;
+    border: #28D979 solid 7px;
     pointer-events: none;
     display: none;
 }
