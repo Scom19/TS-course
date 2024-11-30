@@ -1,3 +1,6 @@
+import Cropper from 'cropperjs';
+import 'cropperjs/dist/cropper.css';
+
 const upload = document.getElementById('upload');
 const image = document.getElementById('image');
 const croppedImageElement = document.getElementById('cropped-image');
