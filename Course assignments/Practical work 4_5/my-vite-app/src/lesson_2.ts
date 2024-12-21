@@ -59,7 +59,7 @@ class Admin implements IUserAdmin {
     }
 }
 
-const admin = new Admin(1, "Ivan", "Ivanov", 25, "ivan@example.com", "admin", 5, "Ivanchik228");
+const admin = new Admin(1, "Ivan", "Ivanov", 25, "ivan@example.com", "admin", 5, "Ivanchik");
 console.log(admin.getCoins());
 admin.addCoin(10);
 console.log(admin.getCoins());
